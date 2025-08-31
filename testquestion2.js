@@ -13,18 +13,14 @@ function draw(){
     let startX = diameter/2; 
     //let startX = diameter/2;
     let startY = diameter/2; 
+    
+     for(let j =0; j<5; j++) {
 
+        let y = startY + i*diameter; 
 
-    for(let i =0; i<10; i++) { 
-        let y = startY + j*diameter; 
-
-        for(let i=0; i<5; i++) {
+        for(let i=0; i<10; i++) {
             fill(0, i*50, 0); 
             circle(startX+i*diameter, y, diameter); 
+} 
 
-
-        }
-    }
-
-
-}            
+     }
