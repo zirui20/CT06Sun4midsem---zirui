@@ -24,4 +24,8 @@ function draw(){
             circle(startX+i*diameter, y, diameter); 
 
 
-            
+        }
+    }
+
+
+}            
