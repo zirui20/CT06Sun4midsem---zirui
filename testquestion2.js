@@ -1,4 +1,5 @@
-s
-
-let diameter = 50;
-    let numCircles = 10; 
+function setup() {
+    createCanvas(600,600);
+    background(220)
+}
+?
