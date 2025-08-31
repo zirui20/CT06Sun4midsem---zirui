@@ -15,8 +15,7 @@ function draw(){
     let startY = diameter/2; 
 
 
-    for(let j =0; j<5; j++) {
-
+    for(let i =0; i<10; i++) { 
         let y = startY + j*diameter; 
 
         for(let i=0; i<5; i++) {
